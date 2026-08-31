@@ -1,0 +1,15 @@
+ul, ol {
+    border : 1px solid;
+    width: 200%;
+    border-radius: 10px;
+    border-color: black;
+}
+ul > li{
+    background-color: lightgreen;
+    text-decoration: underline wavy 3px brown;
+}
+ol > li{
+    background-color: skyblue;
+    color : white;
+    text-decoration: underline dotted 3px indigo;
+}

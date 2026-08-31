@@ -1,0 +1,11 @@
+#outside-wrapper {
+    margin: auto;
+}
+.post-wrapper{
+    margin: 15px;
+}
+#top-img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}

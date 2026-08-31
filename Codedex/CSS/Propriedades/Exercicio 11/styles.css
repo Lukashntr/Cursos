@@ -1,0 +1,12 @@
+h1{
+    border: 5px solid black;
+}
+
+p{
+    font-family: monospace;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    background-color: beige;
+    border: 2px solid black;
+}
