@@ -1,0 +1,8 @@
+#notification-div {
+  background-color: #ed8a0a;
+  color: #313131;
+  padding: 5px;
+  border: 2px solid darkred;
+  border-radius: 5px;
+  width: 25%;
+}
