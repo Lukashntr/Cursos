@@ -1,0 +1,32 @@
+* {
+  margin: 10px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+  
+body {
+  height: 100vh;
+}
+
+.card-row {
+  display: flex;  /* faz os itens flutuarem */
+  height: 25vh;
+  width: 250px;
+  padding: 2rem;
+  gap: 1rem;
+  text-align: center;
+  color: white;
+  flex-wrap: wrap; /* permite que os itens vao para outra linha quando o espaço acaba */
+  justify-content: center; /* centraliza os itens horizontalmente */
+
+}
+.card {
+  background-color: rgb(29, 37, 185);
+  border: 2px solid #0f3460;
+  border-radius: 12px;
+  padding: 2rem;
+  flex: 1;
+  width: 75%; /* define uma largura mínima para os cards */
+  height: 75%; /* define uma altura mínima para os cards */
+  
+}

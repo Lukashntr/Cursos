@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  height: 100vh;
+}
+
+.card-row {
+  display: flex;  /* faz os itens flutuarem */
+  height: 25vh;
+  padding: 2rem;
+  gap: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  background-color: rgb(29, 37, 185);
+  border: 2px solid #0f3460;
+  border-radius: 12px;
+  padding: 3rem;
+  flex: 1;  
+  
+}
