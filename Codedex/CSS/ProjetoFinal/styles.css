@@ -1,0 +1,66 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-family:  Helvetica, sans-serif;
+}
+.header{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    display:grid;
+    margin: 0px;
+    position:sticky;
+    top: 0;
+    width: 100%;
+}
+main{
+    padding: 20px;
+}
+#about-me-section{
+    margin-top: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.about-me{
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.paragrafos-sobre{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border-color: white;
+    width: 350px;
+}
+.projetos{
+    margin-top: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+.footer{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    margin-top: 300px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    
+}
