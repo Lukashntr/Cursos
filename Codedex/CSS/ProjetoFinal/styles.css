@@ -1,66 +1,110 @@
-.body{
-    margin: 0px;
-    padding: 0px;
-    font-family:  Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header{
-    padding: 5px;
-    background-color: black;
-    color: white;
-    flex-direction: row;
-    display:grid;
-    margin: 0px;
-    position:sticky;
-    top: 0;
-    width: 100%;
+
+/* Fonte e cores principais */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
 }
-main{
-    padding: 20px;
+
+/* Cabeçalho */
+.header {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 10px;
+  text-align: start;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-#about-me-section{
-    margin-top: 35px;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: black;
-    color: white;
+
+.header h1, .header p {
+  margin-bottom: 10px;
 }
-.about-me{
-    flex-direction: row;
-    padding: 10px;
-    border-radius: 5px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
-    color: white;
+
+.header a {
+  color: #facc15;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
 }
-.paragrafos-sobre{
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 2px;
-    border-color: white;
-    width: 350px;
+
+.header a:hover {
+  text-decoration: underline;
 }
-.projetos{
-    margin-top: 25px;
-    border: 1px solid white;
-    padding: 10px;
-    display: flex;
-    background-color: black;
-    border-radius: 5px;
-    color: white;
+
+/* Seções principais */
+.introducao {
+  padding: 40px 20px;
+  text-align: center;
 }
-.footer{
-    padding: 5px;
-    background-color: black;
-    color: white;
-    flex-direction: row;
-    margin-top: 300px;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    
+
+.introducao h1 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+#about-me-section {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#sobre-mim-title {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.paragrafos-sobre {
+  margin-bottom: 12px;
+}
+
+/* Projetos */
+.projetos {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.projetos p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.projetos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projetos ul li {
+  background-color: #fff;
+  margin: 10px auto;
+  max-width: 600px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+.footer {
+  background-color: #1e3a8a;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .header, .introducao, .projetos, #about-me-section {
+    padding: 20px 10px;
+  }
 }
