@@ -1,0 +1,1 @@
+print ("Olá, Mundo!") # imprime a mensagem "Olá, Mundo!" na tela
