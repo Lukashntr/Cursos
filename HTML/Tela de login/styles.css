@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(5, 14, 18);
+    color: white;
+    font-family: monospace, Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+/*img{
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+}
+.app-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+input{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-right: 10px;
+}
+#app-title{
+    padding: 50px;
+    font-family: monospace, Arial, sans-serif;
+    text-align: center;
+}
+#username-wrapper{
+    padding: 10px;
+}
+#password-wrapper{
+    padding: 10px;
+}
+#login-button{
+    padding: 10px;
+}   
+#login-button{
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(245, 242, 242);
+    color: black;
+    font-family: monospace, Arial, sans-serif;
+}
