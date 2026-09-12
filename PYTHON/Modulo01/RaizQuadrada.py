@@ -1,0 +1,5 @@
+a = input("digite um número inteiro: ")
+print("o número digitado foi", a)
+print(" o dobro de", a, "é", int(a) * 2)
+print("o triplo de", a, "é", int(a) * 3)
+print("a raiz quadrada de", a, "é", float(a) ** 0.5)
